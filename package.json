@@ -1,0 +1,16 @@
+{
+  "name": "threejs-boilerplate",
+  "module": "index.js",
+  "dependencies": {
+    "express": "^5.1.0",
+    "lil-gui": "^0.20.0",
+    "three": "^0.180.0"
+  },
+  "private": false,
+  "scripts": {
+    "dev": "bun --watch index.js",
+    "start": "bun index.js",
+    "build": "bun build index.js --outdir=dist"
+  },
+  "type": "module"
+}
